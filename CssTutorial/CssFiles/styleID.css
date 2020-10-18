@@ -3,3 +3,13 @@
 	color:blue;
 	background-color:yellow;
 }
+
+.fancy-border 
+{
+	 border: 3px dashed red;
+}
+
+.blue-text
+{
+	color:blue;
+}
