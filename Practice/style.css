@@ -1,16 +1,12 @@
-#menuBar {
-	position: sticky;
+#menuBar{
+	display:block;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-	position: fixed;
-	top: 0;
-	margin-bottom:3000px;
+.sticky{
 	width: 100%;
 }
 
-ul{
+.template{
     direction: rtl;
 
 	color:white; 
@@ -21,6 +17,7 @@ ul{
 	border-bottom: 2px solid black;
 	padding: 15px 15px 15px 15px; 
 }
+
 
 ul > li:hover {
 	background-color: rgba(255,255,255,0.2);
