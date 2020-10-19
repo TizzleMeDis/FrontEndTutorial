@@ -1,7 +1,48 @@
+#menuBar {
+	position: sticky;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+	position: fixed;
+	top: 0;
+	margin-bottom:3000px;
+	width: 100%;
+}
+
+ul{
+    direction: rtl;
+
+	color:white; 
+	background-color:#50759b; 
+	box-shadow: 3px 3px 5px black;
+
+	margin:0px;
+	border-bottom: 2px solid black;
+	padding: 15px 15px 15px 15px; 
+}
+
 ul > li:hover {
-	background-color: white;
-	color:black;
-	opacity: 0.7;
-	border-radius: 20%;
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 10%;
 	border-color: grey;
+
+	animation-name: bold_tab;
+	animation-duration: 0.2s;
+}
+
+@keyframes bold_tab {
+	from {background-color:#50759b;}
+	to {background-color: rgba(255,255,255,0.2);}
+}
+
+body {
+	background-color:#476b6b;
+	margin:0px;
+}
+
+
+li {
+	display:inline;
+	padding:1em;
 }
