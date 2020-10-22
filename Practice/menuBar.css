@@ -44,38 +44,3 @@ li {
 	display:inline;
 	padding:1em;
 }
-
-.main-content{
-	display: flex;
-	flex-wrap: 
-}
-.main-content > div{
-	background-color: rgb(186, 213, 227, 0.8);
-	display: flex;
-	flex: 1;
-	margin:5px;
-	height:500px; 
-	border-radius: 3%;
-}
-div:hover{
-	background-color: rgb(186, 213, 227, 1);
-	display: flex;
-	flex: 1.1;
-	margin:10px;
-	height:510px; 
-	opacity: 1;
-}
-
-.pop-out-menu {
-	display: flex;
-	flex-flow: wrap;
-}
-
-.pop-out-menu > div{
-	background-color: rgb(186, 213, 227, 0.8);
-	
-	
-	height: 500px;
-	margin: 5px;
-	border-radius: 3%;
-}
