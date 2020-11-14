@@ -1,0 +1,2 @@
+<p>Hi there! I am an aspiring developer that enjoys coding and highly interested in learning new technology. I have been coding for 2+ years and still looking for new projects to take on for my free time. I started with Java and then branched out to Python, HTML, and CSS. I am close to graduating with a degree in Computer Science with only a year to go!</p>
+					<p>If you have any more questions about my resume or just talk to me about a potential position. Reach me down below!</p>
